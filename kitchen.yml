@@ -154,8 +154,8 @@ suites:
         base:
           '*':
             - powerdns._mapdata
-            - powerdns.config
-            - powerdns.backend-sqlite3
+            # - powerdns.config
+            # - powerdns.backend-sqlite3
       pillars:
         top.sls:
           base:
